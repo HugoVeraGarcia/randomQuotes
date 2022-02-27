@@ -5,7 +5,17 @@ import Button from "./Button";
 
 const getRandom = (data) => Math.floor(Math.random() * data.length);
 
+const colors = [
+    "#EB5B4B",
+    "#EA35F2",
+    "#593BDB",
+    "#35A1F2",
+    "#33E8AA",
+    "#FF0000",
+    "#48EB21"
+  ];
 
+/*
 const colors = [
     "#845EC2",
     "#D65DB1",
@@ -14,6 +24,8 @@ const colors = [
     "#FFC75F",
     "#F9F871"
   ];
+  */
+
   
 //rsc ... react state component
 const QuoteBox = () => {
