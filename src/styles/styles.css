@@ -17,10 +17,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    padding: 2rem;
+    padding: 1rem;
     align-items: flex-end;
-    width: 600px;
-    height: 250px;
+    width: 400px;
+    height: 150px;
     background-color: white;
     margin: 0 auto;
     vertical-align: middle;
@@ -40,12 +40,13 @@ body{
 
   .author{
     font-style: italic;
+    font-size: 1rem;
 
   }
 
   .button{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 0px solid white;
     font-size: 2rem;
@@ -53,5 +54,33 @@ body{
   }
 
   .icon{
+    font-size: 2rem;
+  }
+
+  @media only screen and (min-width: 700px){
+
+  .card{
+    padding: 2rem;
+    width: 600px;
+    height: 250px;
+  }
+
+  .quote{
+    font-size: 1.4rem;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+
+  .icon{
     font-size: 4rem;
   }
+
+  .author{
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+
+  .button{
+    width: 50px;
+    height: 50px;
+  }
+}
